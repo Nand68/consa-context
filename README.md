@@ -371,8 +371,7 @@ If you find this tool helpful, please:
 
 ## 📧 Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/Nand68)
 
 ---
 
