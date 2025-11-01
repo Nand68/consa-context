@@ -1,0 +1,65 @@
+{
+  "name": "consacontext",
+  "version": "1.0.0",
+  "description": "🚀 Zero-config CLI tool to instantly generate React Context API boilerplate with TypeScript support. Create type-safe context providers, custom hooks, and state management in seconds.",
+  "type": "module",
+  "main": "dist/generator.js",
+  "bin": {
+    "consa": "bin/consa.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test-cli": "npm run build && node bin/consa.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "react-context",
+    "context-api",
+    "react-hooks",
+    "typescript",
+    "generator",
+    "cli",
+    "boilerplate",
+    "code-generator",
+    "react-typescript",
+    "state-management",
+    "context-provider",
+    "custom-hooks",
+    "react-context-generator",
+    "typescript-react",
+    "developer-tools",
+    "productivity",
+    "scaffolding",
+    "react-tooling",
+    "nextjs",
+    "vite",
+    "create-react-app"
+  ],
+  "author": {
+    "name": "Nandkishor Dhadhal",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/consacontext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/consacontext/issues"
+  },
+  "homepage": "https://github.com/yourusername/consacontext#readme",
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
